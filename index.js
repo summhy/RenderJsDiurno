@@ -1,5 +1,4 @@
 const express = require("express");
-const { __express } = require("hbs");
 const app = express()
 const hbs = require("hbs")
 app.set('view engine', 'hbs');
