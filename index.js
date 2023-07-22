@@ -6,7 +6,7 @@ app.set('views', './views');
 app.use(express.static("public"))
 hbs.registerPartials(__dirname+"/views/partials")
 
-app.listen(3000)
+app.listen(3001)
 app.get("/",(req, res)=>{
     res.render("index")
 })
